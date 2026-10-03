@@ -2,6 +2,8 @@
 name: portrait-real-grade
 version: 1.0
 summary: Preserve human identity and natural portrait realism while making only believable, low-strength refinements to skin, hair, clothing response, body presentation, and person-specific light. Designed to run with A and B when a clear portrait/person subject is present.
+description: "Preserve human identity and natural portrait realism while making only believable, low-strength refinements to skin, hair, clothing response, body presentation, and person-specific light. Designed to run with A and B when a clear portrait/person subject is present."
+license: "Proprietary (All rights reserved; 未经许可不得商用)"
 ---
 
 # Portrait Real Grade Skill (C)

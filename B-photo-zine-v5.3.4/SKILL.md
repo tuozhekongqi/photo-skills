@@ -2,6 +2,8 @@
 name: photo-zine-social
 version: 5.3.4
 summary: Turn real photos into source-led social/editorial outputs while preserving source identity. Treat batches directly and lightly, use feedback without overfitting, avoid quota-driven collage/diversity, and keep multi-image work optional and compositionally justified.
+description: "Turn real photos into source-led social/editorial outputs while preserving source identity. Treat batches directly and lightly, use feedback without overfitting, avoid quota-driven collage/diversity, and keep multi-image work optional and compositionally justified."
+license: "Proprietary (All rights reserved; 未经许可不得商用)"
 ---
 
 # Photo Zine Social Skill

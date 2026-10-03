@@ -2,6 +2,8 @@
 name: photo-real-grade
 version: 1.4
 summary: Preserve the user's original photograph and improve only believable exposure, tonal hierarchy, color, local contrast, and source-supported light. No redesign, no layout, no invented objects, and no synthetic relighting that contradicts the source.
+description: "Preserve the user's original photograph and improve only believable exposure, tonal hierarchy, color, local contrast, and source-supported light. No redesign, no layout, no invented objects, and no synthetic relighting that contradicts the source."
+license: "Proprietary (All rights reserved; 未经许可不得商用)"
 ---
 
 # Photo Real Grade Skill
