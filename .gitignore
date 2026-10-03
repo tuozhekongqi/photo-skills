@@ -1,0 +1,15 @@
+# ===== 本地私有素材审查区（不公开上传）=====
+# 被移出公开仓库的素材保留在本目录，说明见根目录 PUBLIC_ASSET_REVIEW.md
+private-assets-review/
+
+# ===== OS / 编辑器杂项 =====
+Thumbs.db
+desktop.ini
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# ===== 临时文件 =====
+*.log
+*.tmp

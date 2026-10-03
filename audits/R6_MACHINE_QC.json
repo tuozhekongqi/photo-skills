@@ -1,0 +1,11 @@
+{
+  "issues": [],
+  "image_files_verified": 48,
+  "A_positive": 7,
+  "A_cautionary": 3,
+  "B_positive": 37,
+  "B_cautionary": 1,
+  "cross_library_duplicates": 0,
+  "golden_sha256": "c3498fd0113953f69f25715ac865f97ae7d5a4479d0e525f9fe7eec1f4b30624",
+  "golden_match": true
+}

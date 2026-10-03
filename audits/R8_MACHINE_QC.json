@@ -1,0 +1,14 @@
+{
+  "issues": [],
+  "routing_runtime_scan_passed": true,
+  "default_no_portrait_route": "A+B",
+  "default_portrait_route": "A+B+C",
+  "module_activation_separate_from_intensity": true,
+  "image_files_verified": 48,
+  "A_positive": 7,
+  "A_cautionary": 3,
+  "B_positive": 37,
+  "B_cautionary": 1,
+  "golden_sha256": "c3498fd0113953f69f25715ac865f97ae7d5a4479d0e525f9fe7eec1f4b30624",
+  "golden_match": true
+}
