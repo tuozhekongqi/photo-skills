@@ -2,6 +2,18 @@
 
 一套**真实照片后期与设计表达**的 AI Agent 技能包（Skills）。三个模块职责独立、协同运行，共享同一套路由、反馈吸收和最终质量检查逻辑。
 
+## 参考图库预览
+
+技能包内置参考图库（reference-library）：**A 组 = 真实摄影后期方向**（环境光一致、层次与真实感），**B 组 = Photo Zine / 编辑设计方向**（留白、版式、纸张与印刷语言）。以下为部分精选，完整 **46 张**（含反例对照）见 [`GALLERY.md`](GALLERY.md)。
+
+<table>
+<tr><td align="center" width="33%"><img src="A-photo-real-grade-v1.4/reference-library/positive/01_river_dusk_approved.webp" width="250" alt="A · River Dusk"><br><sub>A · River Dusk</sub></td><td align="center" width="33%"><img src="A-photo-real-grade-v1.4/reference-library/positive/03_lake_boats_approved.webp" width="250" alt="A · Lake Boats"><br><sub>A · Lake Boats</sub></td><td align="center" width="33%"><img src="A-photo-real-grade-v1.4/reference-library/positive/07_red_wall_soft_sky_photo_grade_approved.webp" width="250" alt="A · Red Wall Soft Sky"><br><sub>A · Red Wall Soft Sky</sub></td></tr>
+<tr><td align="center" width="33%"><img src="B-photo-zine-v5.3.4/reference-library/positive/02_Dragon_Ceiling.webp" width="250" alt="B · Dragon Ceiling"><br><sub>B · Dragon Ceiling</sub></td><td align="center" width="33%"><img src="B-photo-zine-v5.3.4/reference-library/positive/10_Rush_Hour.webp" width="250" alt="B · Rush Hour"><br><sub>B · Rush Hour</sub></td><td align="center" width="33%"><img src="B-photo-zine-v5.3.4/reference-library/positive/17_Retro_Halftone_Travel_Poster.webp" width="250" alt="B · Retro Halftone Poster"><br><sub>B · Retro Halftone Poster</sub></td></tr>
+<tr><td align="center" width="33%"><img src="B-photo-zine-v5.3.4/reference-library/positive/19_High_Contrast_BW.webp" width="250" alt="B · High Contrast B&W"><br><sub>B · High Contrast B&W</sub></td><td align="center" width="33%"><img src="B-photo-zine-v5.3.4/reference-library/positive/11_Golden_Roofs.webp" width="250" alt="B · Golden Roofs"><br><sub>B · Golden Roofs</sub></td><td align="center" width="33%"><img src="B-photo-zine-v5.3.4/reference-library/positive/23_River_Dusk.webp" width="250" alt="B · River Dusk"><br><sub>B · River Dusk</sub></td></tr>
+</table>
+
+> 参考图是技能运行时的风格与质量参照（visual-memory assets），不是可复制的模板。
+
 ## 模块与职责
 
 | 模块 | 目录 | 职责 | 默认介入强度 |
@@ -48,6 +60,7 @@
 
 ```
 ├── README.md
+├── GALLERY.md                      # 参考图库总览（46 张，含反例对照）
 ├── CHANGELOG.md                    # 版本历史
 ├── ROUTING.md                      # A/B/C 默认路由规则（R8）
 ├── FEEDBACK_ABSORPTION_POLICY.md   # 反馈吸收机制（v1.1）
