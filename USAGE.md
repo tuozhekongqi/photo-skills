@@ -4,11 +4,13 @@
 
 ## 一、给 AI Agent 的「一句话安装」★ 推荐
 
-把下面这句话整段复制，发给你正在使用的 AI Agent（Claude Code / Codex / Cursor / 任何具备终端与文件能力的 agent）——它会自己完成安装：
+把下面这句整段复制，发给你正在使用的 AI Agent（Claude Code / Codex / Cursor / 任何有联网能力的 agent）——它会**拉取安装说明、自己完成安装**：
 
-> 请安装照片技能包：克隆 https://github.com/tuozhekongqi/photo-skills.git ，将其中的 A-photo-real-grade-v1.4、B-photo-zine-v5.3.4、C-portrait-real-grade-v1.0 三个目录安装为你的技能（各自以 SKILL.md 为入口），并阅读仓库根目录的 ROUTING.md 与 FEEDBACK_ABSORPTION_POLICY.md 作为运行规则。装好后告诉我它可以怎么用。
+> `curl -fsSL https://raw.githubusercontent.com/tuozhekongqi/photo-skills/main/INSTALL.md`，然后按该文件的说明把 Photo Skills（A/B/C）安装为你的技能；装好后阅读各 SKILL.md 与 ROUTING.md 并开始使用。
 
-也可以直接执行（以 Claude Code 为例，其个人技能目录为 `~/.claude/skills/`；其他工具请让 agent 放进它自己的技能目录）：
+（安装说明文件 [INSTALL.md](INSTALL.md) 内含各工具的落盘方式与网络兜底；国内网络打不开 raw.githubusercontent.com 时，换用 jsDelivr 镜像：`curl -fsSL https://cdn.jsdelivr.net/gh/tuozhekongqi/photo-skills@main/INSTALL.md`。）
+
+**手动方式（备选）**——以 Claude Code 为例（个人技能目录 `~/.claude/skills/`；其他工具请让 agent 放进它自己的技能目录）：
 
 ```bash
 git clone --depth 1 https://github.com/tuozhekongqi/photo-skills.git

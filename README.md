@@ -61,8 +61,10 @@
 
 ## 快速开始（怎么用）
 
-**① 给 AI Agent 的一句话安装（推荐）** —— 把这句话发给你的 agent（Claude Code / Codex / Cursor 等），它会自己装好：
-> 请安装照片技能包：克隆 https://github.com/tuozhekongqi/photo-skills.git ，把其中 A / B / C 三个技能目录安装为你的技能（入口为各自 SKILL.md），并以 ROUTING.md 作为默认路由规则。
+**① 给 AI Agent 的一句话安装（推荐）** —— 把这句话发给你的 agent（Claude Code / Codex / Cursor 等），它会拉取安装说明并自己装好：
+> `curl -fsSL https://raw.githubusercontent.com/tuozhekongqi/photo-skills/main/INSTALL.md`，然后按该文件的说明把 Photo Skills（A/B/C）安装为你的技能；装好后阅读各 SKILL.md 与 ROUTING.md 并开始使用。
+>
+> （国内网络如打不开 raw.githubusercontent.com，把链接换成 jsDelivr 镜像：`https://cdn.jsdelivr.net/gh/tuozhekongqi/photo-skills@main/INSTALL.md`）
 
 **② 聊天 AI 粘贴用法** —— 下载 [`quickstart/快速版提示词.md`](quickstart/快速版提示词.md)（或 Release 附件），整段粘贴给豆包 / DeepSeek 等，再发照片。默认路由：无人像 A+B；有人像 A+B+C；「不要设计 / 不要人像处理」可单独关闭对应层。
 
