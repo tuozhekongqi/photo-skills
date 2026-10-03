@@ -59,10 +59,16 @@
 └── golden-backup/                  # 原始 B V5.3 黄金备份（不可变，不参与运行）
 ```
 
-## 使用方式
+## 快速开始（怎么用）
 
-- 三个模块可分别作为独立技能载入：每个模块以 `SKILL.md` 为入口，`references/` 为其规则参考。
-- 合包运行时：先按 [`ROUTING.md`](ROUTING.md) 判定默认组合（A+B / A+B+C），并全程遵循 [`FEEDBACK_ABSORPTION_POLICY.md`](FEEDBACK_ABSORPTION_POLICY.md)。
+**① 给 AI Agent 的一句话安装（推荐）** —— 把这句话发给你的 agent（Claude Code / Codex / Cursor 等），它会自己装好：
+> 请安装照片技能包：克隆 https://github.com/tuozhekongqi/photo-skills.git ，把其中 A / B / C 三个技能目录安装为你的技能（入口为各自 SKILL.md），并以 ROUTING.md 作为默认路由规则。
+
+**② 聊天 AI 粘贴用法** —— 下载 [`quickstart/快速版提示词.md`](quickstart/快速版提示词.md)（或 Release 附件），整段粘贴给豆包 / DeepSeek 等，再发照片。默认路由：无人像 A+B；有人像 A+B+C；「不要设计 / 不要人像处理」可单独关闭对应层。
+
+**③ 开发者** —— 入口顺序：`ROUTING.md` → 模块 `SKILL.md` → `references/`。
+
+详细步骤（含手动安装命令与分享话术）见 [`USAGE.md`](USAGE.md)。
 
 ## 版本
 
