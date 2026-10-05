@@ -30,8 +30,8 @@ Photo Skills **R9 — ABC 用户版**（统一入口 + 三个模块 + 路由/反
 
 ### 2. 安装为你的技能
 
-- **有技能目录**（如 Claude Code 为 `~/.claude/skills/`）：把根目录 `SKILL.md` 与三个模块目录**原样**复制进去（目录名保持不变）。根 `SKILL.md` 是统一入口；若你的环境要求每个技能独占一个目录，则新建一个目录（建议 `photo-skills-abc-user/`）放入根 `SKILL.md`、`ROUTING.md` 与三个模块目录。
-- **安装后必须显式调用入口**：在支持本地技能的环境里，显式调用 `photo-skills-abc-user`（或在运行配置中把它设为本包的入口）。**只把四个目录放进技能目录，不保证统一入口被优先选中。**
+- **有技能目录**（如 Claude Code 为 `~/.claude/skills/`）：新建一个技能目录（建议 `photo-skills-abc-user/`），把根 `SKILL.md`、`ROUTING.md`、`FEEDBACK_ABSORPTION_POLICY.md` 与三个模块目录（`A-photo-real-grade-v1.3.1/`、`B-photo-zine-v5.4.0/`、`C-portrait-real-grade-v1.1.1/`）**原样**复制进去（目录名保持不变）。根 `SKILL.md` 是统一入口，其第一步就要读取 `ROUTING.md`，所以路由文件必须与它放进同一目录。
+- **安装后必须显式调用入口**：在支持本地技能的环境里，显式调用 `photo-skills-abc-user`（或在运行配置中把它设为本包的入口）。**只把这些文件放进技能目录，不保证统一入口被优先选中。**
 - **没有技能机制**：将根 `SKILL.md`、`ROUTING.md`、`FEEDBACK_ABSORPTION_POLICY.md` 与三个模块 `SKILL.md` 载入为常驻规则；`references/` 按需查阅。
 - **纯对话、没有文件系统**：直接读取以下文件并遵守（把 `<路径>` 换成上面列出的文件名）：
   - `https://raw.githubusercontent.com/tuozhekongqi/photo-skills/main/<路径>`
