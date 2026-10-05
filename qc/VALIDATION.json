@@ -1,0 +1,84 @@
+{
+  "skill_metadata_validation": [
+    {
+      "folder": ".",
+      "valid": true
+    },
+    {
+      "folder": "A-photo-real-grade-v1.3.1",
+      "valid": true
+    },
+    {
+      "folder": "B-photo-zine-v5.4.0",
+      "valid": true
+    },
+    {
+      "folder": "C-portrait-real-grade-v1.1.1",
+      "valid": true
+    }
+  ],
+  "local_markdown_links_checked": 8,
+  "local_code_file_references_checked": 100,
+  "static_policy_checks": [
+    {
+      "check": "combined entrypoint routes before child modules",
+      "passed": true
+    },
+    {
+      "check": "normal base and strong design default",
+      "passed": true
+    },
+    {
+      "check": "portrait extras do not cancel B",
+      "passed": true
+    },
+    {
+      "check": "explicit lighter design remains supported",
+      "passed": true
+    },
+    {
+      "check": "analysis does not generate",
+      "passed": true
+    },
+    {
+      "check": "photographic T independent of design",
+      "passed": true
+    },
+    {
+      "check": "candidate eligibility honors locked strength",
+      "passed": true
+    },
+    {
+      "check": "compiler carries contract",
+      "passed": true
+    },
+    {
+      "check": "hard gates precede scores",
+      "passed": true
+    },
+    {
+      "check": "recovery preserves design strength",
+      "passed": true
+    },
+    {
+      "check": "base-only output is not done",
+      "passed": true
+    },
+    {
+      "check": "portrait local routing preserves composite route",
+      "passed": true
+    }
+  ],
+  "documented_expected_regression_cases": 20,
+  "module_payload_hash_counts": {
+    "A-photo-real-grade-v1.3.1": 21,
+    "B-photo-zine-v5.4.0": 66,
+    "C-portrait-real-grade-v1.1.1": 13
+  },
+  "reference_images_byte_identical": 47,
+  "original_zip_unchanged": true,
+  "original_zip_sha256": "96b6e505cb6d3b562b1e32f0dccdf85ce8ce4250909b016a08c293151c470f02",
+  "original_non_qc_documents_modified": 36,
+  "image_generation_trial_performed": false,
+  "installed_skills_modified": false
+}

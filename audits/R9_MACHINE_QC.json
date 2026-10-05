@@ -1,0 +1,37 @@
+{
+  "release": "R9",
+  "date": "2026-10-05",
+  "package": "photo-skills-combined-ABC-user-v1.0",
+  "module_versions": {
+    "A": "1.3.1",
+    "B": "5.4.0",
+    "C": "1.1.1"
+  },
+  "entry_skill": "photo-skills-abc-user",
+  "default_route": {
+    "scene_subject": "A+B (normal A + strong B)",
+    "portrait_subject": "C+B (normal C + strong B)",
+    "a_plus_c_chained": false
+  },
+  "photographic_transform_independent_of_design_strength": true,
+  "preserve_t0_strong_b_valid": true,
+  "base_only_output_marked_done": false,
+  "image_files_in_public_tree": 45,
+  "A_positive": 7,
+  "A_cautionary": 3,
+  "B_positive": 34,
+  "B_cautionary": 1,
+  "C_images": 0,
+  "excluded_from_public_tree": [
+    "B-photo-zine-v5.4.0/reference-library/positive/14_Mutianyu_Second_World.webp",
+    "B-photo-zine-v5.4.0/reference-library/positive/28_On_the_Hill.webp"
+  ],
+  "assets_new_or_changed_vs_previous_public_tree": 0,
+  "repo_public_images_absent_from_this_package": [
+    "B-photo-zine-v5.3.4/reference-library/positive/37_Wall_and_Heaven_approved.webp"
+  ],
+  "golden_sha256": "c3498fd0113953f69f25715ac865f97ae7d5a4479d0e525f9fe7eec1f4b30624",
+  "golden_match": true,
+  "secret_scan_passed": true,
+  "image_generation_trial_performed": false
+}
